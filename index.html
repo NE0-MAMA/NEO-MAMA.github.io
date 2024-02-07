@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crack The Code</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<div id="maindiv">
+		<div id="secondmain">
+			<div class="col">
+				<p class="labels" >Guess Number</p>
+				<p class="para1" id="c1"></p>
+				<p class="para1" id="c2"></p>
+				<p class="para1" id="c3"></p>
+				<p class="para1" id="c4"></p>
+				<p class="para1" id="c5"></p>
+				<p class="para1" id="c6"></p>
+				<p class="para1" id="c7"></p>
+				<p class="para1" id="c8"></p>
+				<p class="para1" id="c9"></p>
+				<p class="para1" id="c10"></p>
+			</div>
+			<div class="col">
+				<p class="labels">Correct Number</p>
+				<p class="para1" id="cc1"></p>
+				<p class="para1" id="cc2"></p>
+				<p class="para1" id="cc3"></p>
+				<p class="para1" id="cc4"></p>
+				<p class="para1" id="cc5"></p>
+				<p class="para1" id="cc6"></p>
+				<p class="para1" id="cc7"></p>
+				<p class="para1" id="cc8"></p>
+				<p class="para1" id="cc9"></p>
+				<p class="para1" id="cc10"></p>
+			</div>
+			<div class="col">
+				<p class="labels">Correct Position</p>
+				<p class="para1" id="ccc1"></p>
+				<p class="para1" id="ccc2"></p>
+				<p class="para1" id="ccc3"></p>
+				<p class="para1" id="ccc4"></p>
+				<p class="para1" id="ccc5"></p>
+				<p class="para1" id="ccc6"></p>
+				<p class="para1" id="ccc7"></p>
+				<p class="para1" id="ccc8"></p>
+				<p class="para1" id="ccc9"></p>
+				<p class="para1" id="ccc10"></p>
+			</div>
+		</div>
+		<br>
+		<div id="numberslot">
+			<p class="numberslot" id="slot1"></p>
+			<p class="numberslot" id="slot2"></p>
+			<p class="numberslot" id="slot3"></p>
+			<p class="numberslot" id="slot4"></p>
+		</div>
+		
+		<div id="numberbutton">
+			<button class="numberbutton" id="num0" onClick="numclick(0)">0</button>
+			<button class="numberbutton" id="num1" onClick="numclick(1)">1</button>
+			<button class="numberbutton" id="num2" onClick="numclick(2)">2</button>
+			<button class="numberbutton" id="num3" onClick="numclick(3)">3</button>
+			<button class="numberbutton" id="num4" onClick="numclick(4)">4</button>
+			<button class="numberbutton" id="enter" onClick="numclick('enter')">Enter</button>
+			<button class="numberbutton" id="num5" onClick="numclick(5)">5</button>
+			<button class="numberbutton" id="num6" onClick="numclick(6)">6</button>
+			<button class="numberbutton" id="num7" onClick="numclick(7)">7</button>
+			<button class="numberbutton" id="num8" onClick="numclick(8)">8</button>
+			<button class="numberbutton" id="num9" onClick="numclick(9)">9</button>
+			<button class="numberbutton" id="delete" onClick="numclick('delete')">Delete</button>
+			
+		</div>
+		<div id="errormessages">
+			<p id="error"></p>
+		</div>
+	<script src="main.js"></script>
+</body>
+</html>
