@@ -86,6 +86,7 @@ body{
 
 #error{
 	text-align: center;
+	color: grey;
 	
 }
 #enter,#delete{

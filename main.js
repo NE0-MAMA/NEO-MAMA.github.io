@@ -50,7 +50,8 @@ function numclick(a)
 			if (userguess.join('')==crack)
 			{
 				alert("You Crack The Code");
-				
+				location.reload();
+	
 				document.getElementById("error").innerText = "You Crack The Code";
 			}
 			else if (slot == 5)
